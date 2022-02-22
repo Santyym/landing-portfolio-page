@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 121, 221, 0.9);
   margin: 0;
   color: white;
   font-family: "Rubik", sans-serif;
@@ -76,10 +76,20 @@ body {
   padding: 3rem 1rem;
 }
 
+.container2 {
+  max-width: 150px;
+  margin: auto;
+  overflow: hidden;
+  padding: none;
+}
+
 .text-center {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
 .design.bg-white {
   color: black;
 }
@@ -88,9 +98,65 @@ body {
   background: white;
 }
 
-.footer {
-  color: black;
+.bg-yellow {
+  background: rgb(255, 230, 0);
 }
+
+.link {
+  color: white;
+}
+
+.footer {
+  color: white;
+}
+
+.slider {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider ul {
+  padding: 0;
+  display: flex;
+  width: 300%;
+  animation: cambio 20s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+.slider img {
+  width: 100%;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0%;
+  }
+  30% {
+    margin-left: 0%;
+  }
+
+  35% {
+    margin-left: -100%;
+  }
+  65% {
+    margin-left: -100%;
+  }
+
+  70% {
+    margin-left: -200%;
+  }
+  100% {
+    margin-left: -200%;
+  }
+}
+
 @media (max-width: 560px) {
   .header::after {
     height: 50vh;

@@ -157,20 +157,19 @@ body {
   }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 399px) {
   .header::after {
     height: 50vh;
   }
   .header-content {
-    top: 5%;
-    margin-top: 5px;
+    padding-bottom: 30px;
   }
   .header-content .logo {
     height: 100px;
     width: 100px;
   }
   .header-content .text {
-    top: 10%;
+    top: 5%;
   }
   .grid-3,
   .grid-2 {
@@ -178,11 +177,17 @@ body {
     padding-top: 0.1%;
   }
   .design {
-    padding: 1rem, 1rem;
+    padding: 3rem, 1rem;
+  }
+  .container2 {
+    max-width: 150px;
+    margin: auto;
+    overflow: hidden;
+    padding: 3rem, 1rem;
   }
 }
 
-@media (max-height: 500px) {
+@media (max-height: 399px) {
   .grid-3 {
     padding-top: 3%;
   }

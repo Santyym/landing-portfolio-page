@@ -157,7 +157,7 @@ body {
   }
 }
 
-@media (max-width: 399px) {
+@media (max-width: 568px) {
   .header::after {
     height: 50vh;
   }
@@ -171,7 +171,9 @@ body {
   .header-content .text {
     top: 5%;
   }
-  .grid-3,
+  .grid-3 {
+    grid-template-columns: 3fr, 1fr;
+  }
   .grid-2 {
     grid-template-columns: 1fr;
     padding-top: 0.1%;
@@ -187,7 +189,7 @@ body {
   }
 }
 
-@media (max-height: 399px) {
+@media (max-height: 500px) {
   .grid-3 {
     padding-top: 3%;
   }

@@ -181,12 +181,6 @@ body {
   .design {
     padding: 3rem, 1rem;
   }
-  .container2 {
-    max-width: 150px;
-    margin: auto;
-    overflow: hidden;
-    padding: 3rem, 1rem;
-  }
 }
 
 @media (max-height: 500px) {
